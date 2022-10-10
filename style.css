@@ -1,0 +1,119 @@
+*{
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+main{
+  
+    padding: 30px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    border-radius: 10px;
+    flex-direction: column;
+   
+}
+.container .card{
+    width: 100%;
+    height: 500px;  
+    
+}
+#card-1 img{
+    margin: 50px 80px;
+    
+}
+#card-2 img{
+    margin: 50px 80px;
+    
+}
+#card-3 img{
+    margin: 50px 80px;
+    
+}
+
+#card-1 h1 {
+    text-align: center;
+    padding: 10px 20px;
+    color: hsl(0, 0%, 95%);
+
+     margin: 10px 20px;
+    
+    font-family:'Lexend Deca';
+}
+#card-1 p{
+    text-align: center;
+    padding: 20px 30px;  
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin: 10px 20px;
+}
+#card-1 button{
+    border-radius: 20px;
+    margin: 20px 50px;
+    border-style: none;
+    padding: 10px 20px;
+}
+#card-2 h1 {
+    text-align: center;
+    padding: 20px 30px;
+    color: hsl(0, 0%, 95%);
+    margin: 10px 20px;
+   
+}
+#card-2 p{
+    text-align: center;
+    padding: 20px 30px;  
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 10px 20px;
+
+}
+#card-2 button{
+    border-radius: 20px;
+    margin: 20px 50px;
+    border-style: none;
+    padding: 10px 20px;
+}
+#card-3 h1 {
+    text-align: center;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    color: hsl(0, 0%, 95%);
+}
+#card-3 p{
+    text-align: center;
+    padding: 20px 30px;  
+    margin: 10px 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#card-3 button{
+    border-radius: 20px;
+    margin: 20px 50px;
+    border-style: none;
+    padding: 10px 20px;
+}
+#card-1{
+    background-color: hsl(31, 77%, 52%);
+
+}
+#card-2{
+background-color:  hsl(184, 100%, 22%);
+}
+#card-3{
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+@media screen and (min-width:733px) {
+    .container{
+    display: flex;
+        flex-direction: row;
+       
+    
+    }
+}
